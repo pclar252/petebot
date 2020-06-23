@@ -1,0 +1,6 @@
+{
+	"prefix": "!",
+	"discordToken": "{discordAPIToken}",
+	"thesaurusToken": "{thesarusToken}",
+	"googleToken": "{googleAPIToken}"
+}

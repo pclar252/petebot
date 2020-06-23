@@ -1,0 +1,8 @@
+{
+	"soundBites": {
+		"example": {
+			"source": "video.mp3",
+			"desc": "Example videos"
+		}
+	}
+}
