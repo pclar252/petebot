@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot",
+  "name": "petebot",
   "version": "1.0.0",
   "description": "Discord bot full of inside jokes and memes",
   "main": "main.js",
@@ -14,8 +14,10 @@
     "@discordjs/opus": "^0.3.2",
     "discord.js": "^12.2.0",
     "ffmpeg": "0.0.4",
+    "googleapis": "^52.1.0",
     "jquery": "^3.5.1",
     "jsdom": "^16.2.2",
-    "libsodium-wrappers": "^0.7.6"
+    "libsodium-wrappers": "^0.7.6",
+    "ytdl-core": "^2.1.7"
   }
 }

@@ -8,5 +8,8 @@ module.exports = {
 		const connection = await message.member.voice.channel.join();
 		let file = soundBites[Math.floor(Math.random() * soundBites.length)];
 		const dispatcher = connection.play('./media/bag/' + file);
+		dispatcher.on('finish', () => {
+			connection.disconnect();
+		})
 	},
 };
